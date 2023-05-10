@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Patrick Hand' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+<div id="next-button" onclick="nextPage()">next</div>
+<div id="prev-button" onclick="prevPage()">prev</div>
+<div id="frame-layout">
+    <div id="note-frame-layout">
+        <div id="pin-layout"></div>
+        <div class="frame-page hello" style="z-index: 6;">
+            <div style="font-size: 300px;">Portfolio</div>
+        </div>
+        <div class="frame-page" style="z-index: 5;">
+            <div>
+                <div class="sub-title">Tác giả</div>
+                <br><br>
+                <div class="content">
+                    Họ và tên: Phan Ngọc Quý
+                    <br>
+                    Thông tin: Sinh viên năm 2 Khoa điện tử viễn thông - Đại học Bách Khoa Đà Nẵng
+                    <br>
+                    Chuyên ngành: Kĩ Thuật Máy Tính
+                    <br><br>
+                    Chấm hết!
+                </div>
+            </div>
+        </div>
+        <div class="frame-page" style="z-index: 4;">
+            <div>
+                <div class="sub-title">Project: Creat Game with Pascal</div>
+                <video width="600" height="400" controls>
+                    <source src="./SNAKE-EATTING _DEMO.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="frame-page" style="z-index: 3;">
+            <div>
+                <div class="sub-title">Project: Creat Game with C++ & Sfml Libraby</div>
+                <video width="600" height="400" controls>
+                    <source src="./FindingLove.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="frame-page" style="z-index: 2;">
+            <div>
+                <div class="sub-title">Project: How to read Guitar tab</div>
+                <div class="content">
+                    Tab Guitar:
+                    <img src="./tabguitar.png" style="width: 600px; height: auto">
+                    Ở trên là sheet nhạc dành cho tất cả các loại nhạc cụ, và ở dưới là tab dành cho Guitar>.
+                    Tab có 6 dòng từ trên xuống dưới lần lượt là dây 1 đến 6 của Guitar.
+                    Khi đọc Tab số ở dòng nào thì ta sẽ bấm vào dây đó ở khoang số đó và gảy.
+                    Ngoài ra còn áp dụng một số kĩ thuật để làm cho tiếng đàn hay hơn. 
+                    Dưới đây là kí hiệu các kĩ thuật thông thườngtrên tab:
+                    <br>
+                    Kĩ thuật Pull off và Hammer on: Kết hợp gảy bằng tay phải và buông hay nhấn nhanh bằng tay phải tạo luyến.
+                    <br>
+                    <img src="./pulloff_hammeron.png" style="width: 300px; height: auto">
+                    <br>
+                    Kĩ thuật Slide: Kết hợp gảy bằng tay phải và dùng tay trái lướt dọc dây tạo âm thanh réo rắt liền mạch.
+                    <br>
+                    <img src="./tab-sliding.png" style="width: 300px; height: auto">
+                    <br>
+                    Ngoài ra còn có Palm, Nail Attack, Bend ...
+                </div>
+            </div>
+        </div>
+        <div class="frame-page" style="z-index: 1;">
+            <div class="sub-title">Project: How to read Guitar tab</div>
+            <video width="600" height="400" controls>
+                <source src="./Guitar.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="frame-page hello" style="z-index: 0;">
+            <div style="font-size: 300px;">Hết</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
