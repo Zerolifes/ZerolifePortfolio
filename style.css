@@ -50,6 +50,15 @@ body
     transform-origin: 25px 25px;
     transition: transform 2s, opacity 2s;
 }
+.decp
+{
+    position: absolute;
+    width: 45%;
+    height: auto;
+    right: 1%;
+    /* border: 1px black solid; */
+    top: 18%;
+}
 #next-button
 {
     display: flex;
@@ -61,6 +70,7 @@ body
     right: 0px;
     color: white;
     z-index: 10;
+    cursor: pointer;
 }
 #prev-button
 {
@@ -72,6 +82,7 @@ body
     align-items: center;
     color: white;
     z-index: 10;
+    cursor: pointer;
 }
 .hello
 {
